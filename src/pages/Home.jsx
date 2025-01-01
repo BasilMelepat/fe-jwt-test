@@ -28,10 +28,9 @@ return (
                         </span>
                     </h1>
                     <p className="py-6">
-                    This website provides a robust and user-friendly platform for testing JSON Web Token (JWT).
-                    Thank you for using my react website. We hope you have a great experience with us.
+                        Thank you for using my react website. I hope you had a great experience here.
+                        This website provides a robust and user-friendly platform for testing JSON Web Token (JWT).
                     </p>
-                    
                     </>
                 ) : (
                     <>
