@@ -21,7 +21,7 @@ const SignUp = () => {
               error={errors.name}
             />
             <FormField
-              label="Email (use only valid email)"
+              label="Email"
               name="email"
               type="email"
               icon={Mail}
