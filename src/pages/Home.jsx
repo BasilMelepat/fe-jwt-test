@@ -9,7 +9,7 @@ import banner3 from "/banner-3.jpeg";
 
 const Home = () => {
 const isLoggedIn = useSelector((state) => state.auth.isLoggedIn);
-const user = useSelector((state) => state.auth.user); // Assuming user info is stored in state.auth.user
+const user = useSelector((state) => state.auth.user); 
 const slides = [banner1, banner2, banner3];
 
 return (
