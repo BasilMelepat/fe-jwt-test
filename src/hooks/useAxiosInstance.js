@@ -2,7 +2,7 @@ import axios from "axios";
 
 const axiosInstance = axios.create({
   // baseURL: "http://localhost:3001",
-  baseURL: "http://be-jwt-test.vercel.app",
+  baseURL: "https://be-jwt-test.vercel.app",
 });
 
 axiosInstance.interceptors.request.use((config) => {
